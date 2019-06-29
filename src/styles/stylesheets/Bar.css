@@ -1,0 +1,35 @@
+.bar {
+  display: flex;
+  align-items: center;
+}
+.bar .header h3 {
+  margin: 0;
+  font-size: 30px;
+}
+.bar .divider {
+  flex: 1;
+}
+.bar .parent .links ul li {
+  display: inline;
+  padding: 0 20px;
+  font-size: 20px;
+}
+
+@media (max-width: 850px) {
+  .bar {
+    padding: 35px;
+  }
+  .bar .parent .links {
+    display: none;
+  }
+}
+@media (min-width: 850px) {
+  .bar {
+    padding: 35px 50px;
+  }
+  .bar .parent .button {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=Bar.css.map */
