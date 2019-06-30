@@ -1,6 +1,4 @@
-$benefits-bg: #343434;
-$shadow: #CBCBCB;
-
+@import "App.scss";
 .support {
   text-align: center;
   .information {
@@ -15,7 +13,7 @@ $shadow: #CBCBCB;
       padding-bottom: 20px;
     }
     .benefits {
-      background-color: $benefits-bg;
+      background-color: $bg-color;
       color: #fff;
     }
   }
