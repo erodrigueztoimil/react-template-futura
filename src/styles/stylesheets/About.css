@@ -1,10 +1,5 @@
 .about {
-  height: 100vh;
   text-align: center;
-}
-.about .text .child p {
-  font-size: 20px;
-  line-height: 30px;
 }
 .about .img {
   background-image: url("../../img/meeting.jpg");
