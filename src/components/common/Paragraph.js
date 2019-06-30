@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Text(props) {
+function Paragraph(props) {
   let text = props.text.map((text) => {
     return (<p>{text}</p>);
   });
@@ -11,4 +11,4 @@ function Text(props) {
   );
 }
 
-export { Text };
+export { Paragraph };
