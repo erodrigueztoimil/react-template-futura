@@ -6,3 +6,4 @@ export * from './Drawer.js';
 export * from './Navigation.js';
 export * from './Paragraph.js';
 export * from './Header.js';
+export * from './DetailsCard.js';

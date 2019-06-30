@@ -1,0 +1,14 @@
+.details-card {
+  padding: 25px;
+  margin: 10px;
+  text-align: center;
+  color: #fff;
+}
+.details-card h3 {
+  font-size: 30px;
+}
+.details-card p {
+  font-size: 20px;
+}
+
+/*# sourceMappingURL=DetailsCard.css.map */

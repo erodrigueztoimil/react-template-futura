@@ -1,0 +1,31 @@
+@import "App.scss";
+
+.details {
+  width: 100%;
+  background-color: $bg-color;
+  position: relative;
+  display: inline-flex;
+}
+
+// small view
+@media (max-width:600px) {
+  .details {
+    flex-direction: column;
+    align-items: center;
+    .details-card:not(:last-child) {
+      border-bottom: 1px solid #fff;
+    }
+  }
+}
+
+// large view
+@media (min-width:600px) {
+  .details {
+    .details-card {
+      width: 25%;
+    }
+    .details-card:not(:last-child) {
+      border-right: 1px solid #fff;
+    }
+  }
+}
