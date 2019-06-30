@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import '../styles/stylesheets/About.css';
+import { Text } from './common';
 
 class About extends Component {
   constructor() {
@@ -14,15 +15,12 @@ class About extends Component {
   }
 
   render() {
-    let text = this.state.text.map((text) => {
-      return (<p>{text}</p>);
-    });
     return (
       <div className='about'>
         <div className='text'>
           <div className='child'>
             <h3>About</h3>
-            {text}
+            <Text text={this.state.text}/>
           </div>
         </div>
         <div className='img' />
