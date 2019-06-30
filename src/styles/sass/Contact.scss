@@ -1,0 +1,140 @@
+.contact {
+  display: flex;
+  .map {
+    background-image: url('../../img/maps.jpg');
+  }
+  .form-container {
+    text-align: center;
+    .info {
+      padding: 20px;
+    }
+    .form {
+      padding: 20px 30px 30px;
+      form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        input[type=text], input[type=tel], input[type=email], textarea {
+          width: 100%;
+          max-width: 400px;
+          padding: 12px;
+          border: 1px solid #000;
+          box-sizing: border-box;
+          margin-bottom: 15px;
+          resize: vertical;
+          font-size: 15px;
+        }
+
+        .form textarea {
+          height: 150px;
+        }
+
+        input[type=submit] {
+          background-color: #000;
+          border: none;
+          color: white;
+          padding: 13px 30px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 15px;
+          max-width: 100px;
+        }
+      }
+    }
+  }
+}
+
+// small view
+@media (max-width:850px) {
+  .contact {
+    flex-direction: column;
+    .map {
+      padding: 150px 0;
+    }
+  }
+}
+
+// large view
+@media (min-width:850px) {
+  .contact {
+    .map, .form-container {
+      width: 50%;
+    }
+    .map {
+      padding: 250px 0;
+    }
+  }
+}
+
+
+
+
+// .contact {
+//   height: 100vh;
+//   width: 100%;
+//   position: relative;
+//   text-align: center;
+//   .map {
+//     height: 85vh;
+//     width: 90vw;
+//     background-image: url('../../img/maps.jpg');
+//     position: absolute;
+//     margin: 4.5%;
+//   }
+//   .form-container {
+//     height: 75vh;
+//     width: 40vw;
+//     position: absolute;
+//     background-color: #fff;
+//     margin-left: 51%;
+//     margin-top: 7.5%;
+//     overflow: hidden;
+//   }
+//   .info {
+//     p:first-child {
+//       font-size: 30px;
+//       padding-top: 30px;
+//       padding-bottom: 20px;
+//     }
+//     a {
+//       padding: 0;
+//       color: #000;
+//       text-decoration: none;
+//     }
+//   }
+//   .form {
+//     padding: 30px 50px;
+//   }
+//   input[type=text], input[type=tel], input[type=email], textarea {
+//     width: 100%;
+//     padding: 12px;
+//     border: 1px solid #000;
+//     box-sizing: border-box;
+//     margin-bottom: 15px;
+//     resize: vertical;
+//     font-size: 15px;
+//   }
+//
+//   .form textarea {
+//     height: 150px;
+//   }
+//
+//   input[type=submit] {
+//     background-color: #000;
+//     border: none;
+//     color: white;
+//     padding: 13px 30px;
+//     text-align: center;
+//     text-decoration: none;
+//     display: inline-block;
+//     font-size: 15px;
+//   }
+// }
+//
+// // small view
+// @media (max-width:850px) {
+//   .contact {
+//
+//   }
+// }

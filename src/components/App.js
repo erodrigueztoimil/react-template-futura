@@ -1,5 +1,5 @@
 import React from 'react';
-import { Home, About, Support, Details, Break, Services, Footer } from './';
+import { Home, About, Support, Details, Break, Services, Contact, Footer } from './';
 
 function App() {
   return (
@@ -10,6 +10,7 @@ function App() {
       <Details />
       <Break />
       <Services />
+      <Contact />
       <Footer />
     </div>
   );

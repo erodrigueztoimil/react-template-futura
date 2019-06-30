@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/stylesheets/Services.css';
-import { Header, Paragraph } from './common';
+import { Header } from './common';
 
 function Services() {
   return (
