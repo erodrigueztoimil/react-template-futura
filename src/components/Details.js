@@ -8,10 +8,12 @@ class Details extends Component {
   render() {
     return (
       <div className='details'>
-        <DetailsCard header='2004' description='Year Established'/>
-        <DetailsCard header='18,000+' description='Yards of Warehouse Space'/>
-        <DetailsCard header='50+' description='Facilities'/>
-        <DetailsCard header='55%' description='of warehouse space is operated on flexible basis'/>
+        <div className='content'>
+          <DetailsCard header='2004' description='Year Established'/>
+          <DetailsCard header='18,000+' description='Yards of Warehouse Space'/>
+          <DetailsCard header='50+' description='Facilities'/>
+          <DetailsCard header='55%' description='of warehouse space is operated on flexible basis'/>
+        </div>
       </div>
     );
   }
