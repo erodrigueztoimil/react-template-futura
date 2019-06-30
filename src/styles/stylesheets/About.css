@@ -10,7 +10,7 @@
 
 @media (max-width: 900px) {
   .about {
-    padding: 30px;
+    padding: 30px 30px 15px;
   }
   .about .img {
     height: 50vw;
