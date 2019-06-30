@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import '../styles/stylesheets/About.css';
-import { Paragraph } from './common';
+import { Header, Paragraph } from './common';
 
 class About extends Component {
   constructor() {
@@ -19,7 +19,7 @@ class About extends Component {
       <div className='about'>
         <div className='text'>
           <div className='child'>
-            <h3>About</h3>
+            <Header text='About'/>
             <Paragraph text={this.state.text}/>
           </div>
         </div>

@@ -2,10 +2,6 @@
   height: 100vh;
   text-align: center;
 }
-.about .text .child h3 {
-  padding-bottom: 15px;
-  font-size: 30px;
-}
 .about .text .child p {
   font-size: 20px;
   line-height: 30px;
