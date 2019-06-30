@@ -1,0 +1,44 @@
+.about {
+  height: 100vh;
+  text-align: center;
+}
+.about .text .child h3 {
+  padding-bottom: 15px;
+  font-size: 30px;
+}
+.about .text .child p {
+  font-size: 20px;
+  line-height: 30px;
+}
+.about .img {
+  background-image: url("../../img/meeting.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (max-width: 900px) {
+  .about {
+    padding: 30px;
+  }
+  .about .img {
+    height: 50vw;
+    width: 80vw;
+    display: inline-block;
+    margin: 40px 0;
+  }
+}
+@media (min-width: 900px) {
+  .about {
+    display: flex;
+    height: 100%;
+  }
+  .about .text, .about .img {
+    width: 50%;
+  }
+  .about .text .child {
+    padding: 40px;
+  }
+}
+
+/*# sourceMappingURL=About.css.map */
