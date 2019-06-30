@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
-import '../styles/stylesheets/Navigation.css';
-import { Bar, Drawer, Backdrop } from './common';
+import '../../styles/stylesheets/Navigation.css';
+import { Bar, Drawer, Backdrop } from './';
 
 class Navigation extends Component {
   constructor() {

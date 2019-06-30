@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/stylesheets/Home.css';
-import { Navigation } from './';
+import { Navigation } from './common';
 
 function Home() {
   return (
