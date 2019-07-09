@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
-import '../styles/stylesheets/Services.css';
-import { Header, Paragraph, MultipleParagraphs } from './common';
+import '../../styles/stylesheets/Services.css';
+import { Header, Paragraph, MultipleParagraphs } from '../common';
 
 class Services extends Component {
   constructor() {

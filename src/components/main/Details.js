@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
-import '../styles/stylesheets/Details.css';
-import { DetailsCard } from './common';
+import '../../styles/stylesheets/Details.css';
+import { DetailsCard } from '../common';
 
 //would like to clean the code a little bit, .map the infotmation so it genetates the card
 

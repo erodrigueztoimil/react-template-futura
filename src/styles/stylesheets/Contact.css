@@ -1,5 +1,6 @@
 .contact {
   display: flex;
+  margin: 30px 10px;
 }
 .contact .map {
   background-image: url("../../img/maps.jpg");
@@ -9,6 +10,10 @@
 }
 .contact .form-container .info {
   padding: 20px;
+}
+.contact .form-container .info a {
+  text-decoration: underline;
+  color: #000;
 }
 .contact .form-container .form {
   padding: 20px 30px 30px;

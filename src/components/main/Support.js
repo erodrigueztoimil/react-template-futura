@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
-import '../styles/stylesheets/Support.css';
-import { Header, Paragraph } from './common';
+import '../../styles/stylesheets/Support.css';
+import { Header, Paragraph } from '../common';
 
 class Support extends Component {
   constructor() {

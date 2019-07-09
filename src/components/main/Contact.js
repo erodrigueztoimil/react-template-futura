@@ -1,6 +1,6 @@
 import React from 'react';
-import '../styles/stylesheets/Contact.css';
-import { Header } from './common';
+import '../../styles/stylesheets/Contact.css';
+import { Header } from '../common';
 
 function Contact() {
   return (
@@ -9,13 +9,9 @@ function Contact() {
       <div class="form-container">
         <div class="info">
           <Header text='Contact'/>
-
-          <p>
-            <a href="tel:786-343-8972">786-343-8972</a>
-          </p>
-          <p>
-            <a href="/">4835 E 4th Ave Ste B Hialeah, FL, 33013</a>
-          </p>
+          <a href="tel:786-343-8972">786-343-8972</a>
+          <br />
+          <a href="/">4835 E 4th Ave Ste B Hialeah, FL, 33013</a>
         </div>
         <div class="form">
           <form class="" action="index.html" method="post">

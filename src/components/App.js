@@ -1,5 +1,5 @@
 import React from 'react';
-import { Home, About, Support, Details, Break, Services, Contact, Footer } from './';
+import { Home, About, Support, Details, Break, Services, Contact, Footer } from './main';
 
 function App() {
   return (

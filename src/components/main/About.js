@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
-import '../styles/stylesheets/About.css';
-import { Header, MultipleParagraphs } from './common';
+import '../../styles/stylesheets/About.css';
+import { Header, MultipleParagraphs } from '../common';
 
 class About extends Component {
   constructor() {

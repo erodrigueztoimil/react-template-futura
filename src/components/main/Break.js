@@ -1,9 +1,9 @@
 import React from 'react';
-import '../styles/stylesheets/Break.css';
+import '../../styles/stylesheets/Break.css';
 
 function Break() {
   return (
-    <div className='break'/>
+    <div className='break' />
   );
 }
 
