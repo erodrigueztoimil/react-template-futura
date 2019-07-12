@@ -1,13 +1,26 @@
 import React from 'react';
-import '../../styles/stylesheets/DetailsCard.css';
 
 function DetailsCard(props) {
   return (
-    <div className='details-card'>
-      <h3>{props.header}</h3>
-      <p>{props.description}</p>
+    <div className='details-card' style={styles.parent}>
+      <h3 style={styles.h3}>{props.header}</h3>
+      <p style={styles.p}>{props.description}</p>
     </div>
   );
+}
+
+const styles = {
+  parent: {
+    padding: '25px',
+    textAlign: 'center',
+    color: '#fff'
+  },
+  h3: {
+    fontSize: '30px'
+  },
+  p: {
+    fontSize: '20px'
+  }
 }
 
 export { DetailsCard };
