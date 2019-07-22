@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css?family=Lato|Merriweather&display=swap");
+body {
+  margin: 0;
+}
+
+h3 {
+  margin: 0;
+  font-size: 25px;
+  font-family: "Merriweather", serif;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+p {
+  margin: 0;
+  font-size: 20px;
+  font-family: "Lato", sans-serif;
+  line-height: 30px;
+  padding: 10px 0;
+}
+
+h4 {
+  margin: 0;
+  font-size: 20px;
+  font-family: "Merriweather", serif;
+}
+
+.information {
+  margin-top: 150px;
+  background: #FAFAFA;
+}
+.information .child {
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .information {
+    text-align: center;
+    padding: 40px 0;
+  }
+  .information .child {
+    padding: 40px;
+  }
+}
+@media (min-width: 768px) {
+  .information {
+    display: flex;
+    justify-content: center;
+  }
+  .information .child {
+    width: 25%;
+    padding: 70px 30px;
+  }
+}
+
+/*# sourceMappingURL=Information.css.map */
