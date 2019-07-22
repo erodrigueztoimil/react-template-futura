@@ -1,0 +1,18 @@
+.navigation {
+  width: 100vw;
+  position: fixed;
+  background: #fff;
+  top: 0;
+  z-index: 2;
+}
+.navigation .container {
+  display: flex;
+  justify-content: space-between;
+  padding: 4vh 7% 3vh;
+}
+.navigation .container h4 {
+  margin: 0;
+  font-size: 20px;
+}
+
+/*# sourceMappingURL=Navigation.css.map */
