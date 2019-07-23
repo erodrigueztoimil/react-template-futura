@@ -86,9 +86,6 @@ h4 {
   .footer {
     height: 100px;
     background: $light-bg;
-    align-items: center;
-    display: flex;
-    padding: 0 10%;
 
     h5, a {
       font-family: $text-font;
@@ -104,17 +101,41 @@ h4 {
       list-style-type: none;
 
       li {
-        display: inline;
         padding-right: 10px;
+        display: inline;
 
         a {
           color: #000;
         }
       }
     }
+  }
+}
 
-    .divider {
-      flex: 1;
+@media (max-width:650px) {
+  .app {
+    .footer {
+      display: block;
+      text-align: center;
+      padding-top: 30px;
+
+      .divider {
+        padding: 10px;
+      }
+    }
+  }
+}
+
+@media (min-width:650px) {
+  .app {
+    .footer {
+      align-items: center;
+      display: flex;
+      padding: 0 10%;
+
+      .divider {
+        flex: 1;
+      }
     }
   }
 }
