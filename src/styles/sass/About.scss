@@ -1,16 +1,12 @@
-@import "./Index.scss";
+@import "./App.scss";
 
 .about {
   margin-top: 150px;
 
   .content {
-    width: 90vw;
-    border: 1px solid #ccc;
-    margin: auto;
-
     img {
-      height: auto;
       object-fit: cover;
+      display: none;
     }
 
     p {}
@@ -20,7 +16,11 @@
 @media (max-width:786px) {
   .about {
     .content {
+      width: 90vw;
+      margin: auto;
+      border: 1px solid #000;
       img {
+        height: auto;
         width: 100%;
       }
 
@@ -32,126 +32,5 @@
 }
 
 @media (min-width:768px) {
-  .about {
-    .content {
-      display: flex;
 
-      img {
-        width: 40%;
-      }
-
-      p {
-        padding: 50px;
-      }
-    }
-  }
 }
-
-
-
-
-// .about {
-//   margin-top: 150px;
-//
-//   .container {
-//     .header {
-//       text-align: center;
-//       padding-bottom: 50px;
-//     }
-//   }
-// }
-//
-// @media (max-width:900px) {
-//   .about {
-//     .container {
-//       .header {
-//         h3 {
-//           margin: 0;
-//         }
-//       }
-//
-//       .content {
-//         .picture {
-//           width: 100%;
-//
-//           img {
-//             width: 100%;
-//             height: 350px;
-//             object-fit: cover;
-//           }
-//         }
-//
-//         .text {
-//           padding: 40px;
-//
-//           p {
-//             padding: 10px;
-//           }
-//         }
-//       }
-//     }
-//   }
-// }
-//
-// @media (min-width:900px) {
-//   .about {
-//     .container {
-//       width: 100%;
-//
-//       .content {
-//         width: 80%;
-//         height: 100%;
-//         display: flex;
-//         margin: auto;
-//
-//         .picture {
-//           width: 40%;
-//
-//           img {
-//             width: 100%;
-//           }
-//         }
-//
-//         .text {
-//           width: 60%;
-//           position: relative;
-//
-//           .child {
-//             // padding: 60px 30px;
-//             position: absolute;
-//
-//             p {
-//               padding: 10px 0;
-//             }
-//           }
-//         }
-//       }
-//     }
-//   }
-// }
-
-
-
-// <div className='container'>
-//   <div className='header'>
-//     <h3>Company</h3>
-//   </div>
-//   <div className='content'>
-//     <div className='picture'>
-//       <img src={Bandura} alt=''/>
-//     </div>
-//     <div className='text'>
-//       <div className='child'>
-//         <p>
-//           When considering a logistics partner, experience is paramount. Our average facility is over 18,000 square feet and we have successfully implemented 50 start-ups. Our low management turnover means the knowledge gained from these start-ups is still on staff, ready to make your start-up a seamless one - on time and on budget.
-//         </p>
-//         <p>
-//           We offer a combination of several powerful tools that can help you manage your information, workforce, space, and time. We have experienced IT project managers on staff to guide you through the implementation for any of our solutions listed below. We offer competitive storage and service rates in addition to volume discounts. Long-term contracts are not required and there are no termination fees.
-//         </p>
-//         <p>
-//           Futura Logistics Corp, has information technology solutions to meet your supply chain needs, whether you need short-term arrangement requiring a small amount of warehouse space, a customer wishing to contract an entire building for a longer period of time, a means to capture labor and report it, manage your trailers on your yard, or better utilize your private fleet or common carrier transportation providers.
-//         </p>
-//       </div>
-//     </div>
-//   </div>
-// </div>
