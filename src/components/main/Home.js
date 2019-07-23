@@ -1,11 +1,11 @@
 import React from 'react';
-// import '../../styles/stylesheets/Home.css';
-import Chuttersnap from '../../images/chuttersnap.jpg';
+import '../../styles/stylesheets/Home.css';
+import Enrapture from '../../images/enrapture.jpg';
 
 function Home() {
   return (
     <div className='home'>
-      <img src={Chuttersnap} alt='Chuttersnap'/>
+      <img src={Enrapture} alt='Enrapture'/>
     </div>
   );
 }

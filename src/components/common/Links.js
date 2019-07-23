@@ -17,7 +17,7 @@ class Links extends Component {
   render() {
     let links = this.state.items.map((page, key) => {
       return (
-        <li key={key}><a href='/'>{page}</a></li>
+        <li key={key}><a href={page}>{page}</a></li>
       );
     });
     return (

@@ -1,7 +1,8 @@
 import React, {Component} from 'react';
 import '../styles/stylesheets/App.css';
 import { Navigation, Screen } from './common';
-import { Home, About, Information, Services } from './main';
+import { Home, About, Services, Contact, Footer } from './main';
+import { BrowserRouter, Route } from 'react-router-dom';
 
 class App extends Component {
   constructor() {
@@ -27,15 +28,16 @@ class App extends Component {
       <div className='app'>
         { this.state.buttonClicked ?
           <Screen click={this.clickHandler}/> :
-          <div className='app'>
-            <Navigation handler={this.clickHandler}/>
-            <div className='content'>
-              <Home />
-              <About />
-              <Information />
-              <Services />
+          <BrowserRouter>
+            <div className='app'>
+              <Navigation handler={this.clickHandler}/>
+              <Route exact path='/Home' component={ Home }/>
+              <Route exact path='/About' component={ About }/>
+              <Route exact path='/Services' component={ Services }/>
+              <Route exact path='/Contact' component={ Contact }/>
+              <Footer />
             </div>
-          </div>
+          </BrowserRouter>
         }
       </div>
     );
