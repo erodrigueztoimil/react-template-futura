@@ -14,7 +14,7 @@ function Navigation(props) {
           <img src={LinkedIn} alt='LinkedIn' style={styles.icon}/>
         </div>
         <div className='name'>
-          <img src={Name} alt='Name' style={styles.name}/>
+          <a href='/Home'><img src={Name} alt='Name' style={styles.name} /></a>
         </div>
         <div className='button'>
           <HotdogButton click={props.handler} style={styles.icon}/>
