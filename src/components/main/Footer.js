@@ -1,16 +1,12 @@
 import React from 'react';
-import '../../styles/stylesheets/Home.css';
-import Enrapture from '../../images/enrapture.jpg';
+import { Links } from '../common';
 
 function Footer() {
   return (
     <div className='footer'>
-      <h3>Company</h3>
-        <h3>Company</h3>
-          <h3>Company</h3>
-            <h3>Company</h3>
-              <h3>Company</h3>
-
+      <Links />
+      <div className='divider' />
+      <h5>&copy; Futura Logistics 2019</h5>
     </div>
   );
 }

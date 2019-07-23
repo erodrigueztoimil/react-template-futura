@@ -9,6 +9,7 @@ class Links extends Component {
         'Home',
         'About',
         'Services',
+        'Blog',
         'Contact'
       ]
     }

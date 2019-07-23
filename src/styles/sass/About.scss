@@ -1,36 +1,4 @@
-@import "./App.scss";
-
 .about {
-  margin-top: 150px;
-
-  .content {
-    img {
-      object-fit: cover;
-      display: none;
-    }
-
-    p {}
-  }
-}
-
-@media (max-width:786px) {
-  .about {
-    .content {
-      width: 90vw;
-      margin: auto;
-      border: 1px solid #000;
-      img {
-        height: auto;
-        width: 100%;
-      }
-
-      p {
-        padding: 50px 20px;
-      }
-    }
-  }
-}
-
-@media (min-width:768px) {
-
+  margin-top: 100px;
+  height: 100vh;
 }

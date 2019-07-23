@@ -82,4 +82,39 @@ h4 {
   }
 }
 
-.app {}
+.app {
+  .footer {
+    height: 100px;
+    background: $light-bg;
+    align-items: center;
+    display: flex;
+    padding: 0 10%;
+
+    h5, a {
+      font-family: $text-font;
+      font-size: 16px;
+    }
+
+    h5, ul {
+      margin: 0;
+      padding: 0;
+    }
+
+    ul {
+      list-style-type: none;
+
+      li {
+        display: inline;
+        padding-right: 10px;
+
+        a {
+          color: #000;
+        }
+      }
+    }
+
+    .divider {
+      flex: 1;
+    }
+  }
+}

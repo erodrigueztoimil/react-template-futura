@@ -69,4 +69,33 @@ h4 {
   }
 }
 
+.app .footer {
+  height: 100px;
+  background: #f5f5f5;
+  align-items: center;
+  display: flex;
+  padding: 0 10%;
+}
+.app .footer h5, .app .footer a {
+  font-family: "PT Sans", sans-serif;
+  font-size: 16px;
+}
+.app .footer h5, .app .footer ul {
+  margin: 0;
+  padding: 0;
+}
+.app .footer ul {
+  list-style-type: none;
+}
+.app .footer ul li {
+  display: inline;
+  padding-right: 10px;
+}
+.app .footer ul li a {
+  color: #000;
+}
+.app .footer .divider {
+  flex: 1;
+}
+
 /*# sourceMappingURL=App.css.map */

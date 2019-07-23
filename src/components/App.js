@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import '../styles/stylesheets/App.css';
 import { Navigation, Screen } from './common';
-import { Home, About, Services, Contact, Footer } from './main';
+import { Home, About, Services, Blog, Contact, Footer } from './main';
 import { BrowserRouter, Route } from 'react-router-dom';
 
 class App extends Component {
@@ -34,6 +34,7 @@ class App extends Component {
               <Route exact path='/Home' component={ Home }/>
               <Route exact path='/About' component={ About }/>
               <Route exact path='/Services' component={ Services }/>
+              <Route exact path='/Blog' component={ Blog }/>
               <Route exact path='/Contact' component={ Contact }/>
               <Footer />
             </div>
