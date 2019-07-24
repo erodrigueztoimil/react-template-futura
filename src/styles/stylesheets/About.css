@@ -1,6 +1,22 @@
 .about {
-  margin-top: 100px;
-  height: 100vh;
+  margin-top: 140px;
+}
+.about .container {
+  display: flex;
+  margin: 70px 0;
+}
+.about .container h3, .about .container p {
+  width: 50%;
+}
+.about .container p {
+  padding: 0 80px;
+}
+.about img {
+  display: block;
+  margin: 50px auto;
+  width: 60%;
+  height: 300px;
+  object-fit: cover;
 }
 
 /*# sourceMappingURL=About.css.map */

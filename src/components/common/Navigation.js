@@ -10,8 +10,8 @@ function Navigation(props) {
     <div className='navigation'>
       <div className='container'>
         <div className='social'>
-          <img src={Facebook} alt='Facebook' style={styles.icon}/>
-          <img src={LinkedIn} alt='LinkedIn' style={styles.icon}/>
+          <a href='https://www.facebook.com/'><img src={Facebook} alt='Facebook' style={styles.icon}/></a>
+          <a href='https://www.linkedin.com'><img src={LinkedIn} alt='LinkedIn' style={styles.icon}/></a>
         </div>
         <div className='name'>
           <a href='/Home'><img src={Name} alt='Name' style={styles.name} /></a>

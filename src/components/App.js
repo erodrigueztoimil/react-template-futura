@@ -25,17 +25,18 @@ class App extends Component {
 
   render() {
     return (
-      <div className='app'>
+      <div className='parent'>
         { this.state.buttonClicked ?
           <Screen click={this.clickHandler}/> :
           <BrowserRouter>
             <div className='app'>
               <Navigation handler={this.clickHandler}/>
+              <Route exact path='/' component={ Home }/>
               <Route exact path='/Home' component={ Home }/>
-              <Route exact path='/About' component={ About }/>
-              <Route exact path='/Services' component={ Services }/>
-              <Route exact path='/Blog' component={ Blog }/>
-              <Route exact path='/Contact' component={ Contact }/>
+              <Route path='/About' component={ About }/>
+              <Route path='/Services' component={ Services }/>
+              <Route path='/Blog' component={ Blog }/>
+              <Route path='/Contact' component={ Contact }/>
               <Footer />
             </div>
           </BrowserRouter>

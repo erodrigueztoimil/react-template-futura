@@ -1,4 +1,24 @@
 .about {
-  margin-top: 100px;
-  height: 100vh;
+  margin-top: 140px;
+
+  .container {
+    display: flex;
+    margin: 70px 0;
+
+    h3, p {
+      width: 50%;
+    }
+
+    p {
+      padding: 0 80px;
+    }
+  }
+
+  img {
+    display: block;
+    margin: 50px auto;
+    width: 60%;
+    height: 300px;
+    object-fit: cover;
+  }
 }
