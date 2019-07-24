@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["../sass/About.scss"],"names":[],"mappings":"AAAA;EACE;;AAEA;EACE;EACA;;AAEA;EACE;;AAGF;EACE;;AAIJ;EACE;EACA;EACA;EACA;EACA","file":"About.css"}
+{"version":3,"sourceRoot":"","sources":["../sass/_fonts.scss","../sass/About.scss"],"names":[],"mappings":"AAAQ;AAKR;EACE,aAJW;EAKX;;;AAGF;EACE,aARU;;;ACDZ;EACE;;AAGE;EACE,aDLO;ECMP;;AAGF;EACE,aDTM;ECUN;;AAIJ;EACE;EACA;EACA;EACA;EACA;;;AAIJ;EAEI;IACE;IACA;;EAEA;IACE;IACA;;;AAMR;EAEI;IACE;IACA;;EAEA;IACE;;EAGF;IACE","file":"About.css"}

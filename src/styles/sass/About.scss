@@ -1,24 +1,56 @@
+@import "fonts";
+
 .about {
   margin-top: 140px;
 
   .container {
-    display: flex;
-    margin: 70px 0;
-
-    h3, p {
-      width: 50%;
+    h3 {
+      font-family: $title-font;
+      font-size: 30px;
     }
 
     p {
-      padding: 0 80px;
+      font-family: $text-font;
+      font-size: 18px;
     }
   }
 
   img {
     display: block;
     margin: 50px auto;
-    width: 60%;
+    width: 80%;
     height: 300px;
     object-fit: cover;
+  }
+}
+
+@media (max-width:768px) {
+  .about {
+    .container {
+      display: block;
+      align-items: center;
+
+      p {
+        padding: 0 40px;
+        text-align: center;
+      }
+    }
+  }
+}
+
+@media (min-width:768px) {
+  .about {
+    .container {
+      display: flex;
+      margin: 70px 0;
+
+      h3, p {
+        width: 50%;
+      }
+
+      p {
+        padding: 0 80px;
+      }
+    }
   }
 }
