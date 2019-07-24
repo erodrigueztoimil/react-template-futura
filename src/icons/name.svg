@@ -1,3 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="25" height="20" viewBox="0 0 25 20">
-  <text id="FL" transform="translate(1 14)" font-size="20" font-family="HoeflerText-Italic, Hoefler Text" font-style="italic"><tspan x="0" y="0">FL</tspan></text>
+<svg xmlns="http://www.w3.org/2000/svg" width="54" height="56" viewBox="0 0 54 56">
+  <g id="Group_1" data-name="Group 1" transform="translate(-86 -170)">
+    <rect id="Rectangle_1" data-name="Rectangle 1" width="54" height="56" transform="translate(86 170)" fill="#374e96"/>
+    <text id="F" transform="translate(95 213)" fill="#fff" font-size="40" font-family="LucidaGrande-Bold, Lucida Grande" font-weight="700"><tspan x="0" y="0">F</tspan></text>
+    <text id="L" transform="matrix(-1, 0, 0, 1, 131, 174)" fill="#fff" font-size="40" font-family="LucidaGrande-Bold, Lucida Grande" font-weight="700"><tspan x="0" y="39">L</tspan></text>
+  </g>
 </svg>

@@ -9,6 +9,7 @@
   display: flex;
   justify-content: space-between;
   padding: 4vh 7% 3vh;
+  align-items: center;
 }
 .navigation .container h4 {
   margin: 0;

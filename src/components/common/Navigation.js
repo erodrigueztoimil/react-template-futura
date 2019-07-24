@@ -1,7 +1,7 @@
 import React from 'react';
 import '../../styles/stylesheets/Navigation.css';
 import { HotdogButton } from './';
-import Name from '../../icons/name.svg';
+import Name from '../../icons/name.jpg';
 import Facebook from '../../icons/facebook.svg';
 import LinkedIn from '../../icons/linkedin.svg';
 
@@ -10,7 +10,7 @@ function Navigation(props) {
     <div className='navigation'>
       <div className='container'>
         <div className='social'>
-          <a href='https://www.facebook.com/'><img src={Facebook} alt='Facebook' style={styles.icon}/></a>
+          <a href='https://www.facebook.com/Futura-Logistics-Corp-154633071264977/'><img src={Facebook} alt='Facebook' style={styles.icon}/></a>
           <a href='https://www.linkedin.com'><img src={LinkedIn} alt='LinkedIn' style={styles.icon}/></a>
         </div>
         <div className='name'>
@@ -29,7 +29,7 @@ const styles = {
     height: '25px'
   },
   name: {
-    height: '30px'
+    height: '60px'
   }
 }
 

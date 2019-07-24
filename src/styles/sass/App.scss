@@ -84,6 +84,7 @@ h4 {
   .footer {
     height: 100px;
     background: $light-bg;
+    color: white;
 
     h5, a {
       font-family: $text-font;
@@ -103,7 +104,7 @@ h4 {
         display: inline;
 
         a {
-          color: #000;
+          color: white;
         }
       }
     }
