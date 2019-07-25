@@ -1,17 +1,58 @@
+@import "fonts";
+@import "colors";
+
 .home {
-  height: 100vh;
   z-index: 1;
-  img {
-    height: 85%;
-    width: 90%;
-    object-fit: cover;
-    position: absolute;
-    top: 54%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -moz-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    -o-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+  .image {
+    height: 100vh;
+    img {
+      height: 85%;
+      width: 90%;
+      object-fit: cover;
+      position: absolute;
+      top: 54%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -moz-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      -o-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+    }
+  }
+
+  .tracking {
+    text-align: center;
+    padding: 20% 0;
+
+    h3 {
+      font-family: $title-font;
+      font-size: 40px;
+      margin: 0;
+    }
+
+    p {
+      font-size: $text-font;
+      font-size: 25px;
+      margin: 0;
+      padding-top: 10px;
+      padding-bottom: 50px;
+    }
+
+    a {
+      background: $light-bg;
+      padding: 15px 55px;
+      text-decoration: none;
+      color: #fff;
+      font-family: $title-font;
+      font-size: 20px;
+    }
+  }
+}
+
+@media (max-width:425px) {
+  .home {
+    .tracking {
+      padding: 70% 0;
+    }
   }
 }

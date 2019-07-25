@@ -14,10 +14,12 @@ p {
 .about .container h3 {
   font-family: "Dosis", sans-serif;
   font-size: 30px;
+  padding-left: 10%;
 }
 .about .container p {
   font-family: "Merriweather", serif;
   font-size: 18px;
+  word-spacing: 5px;
 }
 .about img {
   display: block;
@@ -46,7 +48,7 @@ p {
     width: 50%;
   }
   .about .container p {
-    padding: 0 80px;
+    padding-right: 10%;
   }
 }
 

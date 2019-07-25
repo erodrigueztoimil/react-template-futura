@@ -5,20 +5,6 @@ body {
   margin: 0;
 }
 
-p {
-  margin: 0;
-  font-size: 18px;
-  font-weight: lighter;
-  font-family: $text-font;
-}
-
-h4 {
-  margin: 0;
-  font-size: 20px;
-  font-weight: bold;
-  font-family: $text-font;
-}
-
 .screen {
   height: 100vh;
 
@@ -26,7 +12,7 @@ h4 {
     height: 25px;
     position: absolute;
     right: 0;
-    padding: 4vh 7%;
+    padding: 7vh 10%;
     animation: fadeIn 2s;
   }
 
