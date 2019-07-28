@@ -1,6 +1,7 @@
 import React from 'react';
 import '../../styles/stylesheets/Home.css';
 import Enrapture from '../../images/enrapture.jpg';
+import { Information } from './';
 
 function Home() {
   return (
@@ -14,6 +15,8 @@ function Home() {
         <p>See where your merchandise is at every step of the way!</p>
         <a href="http://65.15.13.39/TrackingPage.aspx">TRACK</a>
       </div>
+
+      <Information />
     </div>
   );
 }

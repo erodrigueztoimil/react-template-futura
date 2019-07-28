@@ -1,0 +1,45 @@
+@import "colors";
+@import "fonts";
+
+.information {
+  background: $light-bg;
+  color: #fff;
+
+  h4, p {
+    margin: 0;
+  }
+
+  h4 {
+    font-size: 30px;
+    font-family: $title-font;
+  }
+
+  p {
+    font-size: 20px;
+    font-family: $text-font;
+  }
+}
+
+@media (max-width:800px) {
+  .information {
+    text-align: center;
+    padding: 20px;
+
+    .child {
+      padding: 30px 0;
+    }
+  }
+}
+
+@media (min-width:800px) {
+  .information {
+    display: flex;
+    padding: 40px 10px;
+
+    .child {
+      width: 25%;
+      text-align: center;
+      padding: 20px;
+    }
+  }
+}

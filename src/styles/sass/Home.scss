@@ -22,7 +22,6 @@
 
   .tracking {
     text-align: center;
-    padding: 20% 0;
 
     h3 {
       font-family: $title-font;
@@ -53,6 +52,14 @@
   .home {
     .tracking {
       padding: 70% 0;
+    }
+  }
+}
+
+@media (min-width:425px) {
+  .home {
+    .tracking {
+      padding: 20% 0;
     }
   }
 }
