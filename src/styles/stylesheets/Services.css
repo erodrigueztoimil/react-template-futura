@@ -1,6 +1,9 @@
+@import url("https://fonts.googleapis.com/css?family=Dosis|Merriweather:300&display=swap");
 .services {
-  margin-top: 100px;
-  height: 100vh;
-}
+  margin-top: 140px; }
+  .services h3 {
+    font-size: 30px;
+    font-family: "Dosis", sans-serif;
+    text-align: center; }
 
 /*# sourceMappingURL=Services.css.map */

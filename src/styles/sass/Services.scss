@@ -1,4 +1,14 @@
+@import "colors";
+@import "fonts";
+
 .services {
-  margin-top: 100px;
-  height: 100vh;
+  margin-top: 140px;
+
+  h3 {
+    font-size: 30px;
+    font-family: $title-font;
+    text-align: center;
+  }
+
+  .content {}
 }
