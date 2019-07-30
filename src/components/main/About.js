@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../styles/stylesheets/About.css';
+import '../../styles/css/About.css';
 import Bandura from '../../images/bandura.jpg';
 
 function About() {

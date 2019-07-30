@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AAAQ,0FAAkF;ACG1F,SAAU;EACR,UAAU,EAAE,KAAK;EAEjB,YAAG;IACD,SAAS,EAAE,IAAI;IACf,WAAW,EDNF,mBAAmB;ICO5B,UAAU,EAAE,MAAM",
-"sources": ["../sass/_fonts.scss","../sass/Services.scss"],
-"names": [],
-"file": "Services.css"
-}

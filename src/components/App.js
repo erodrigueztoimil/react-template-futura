@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import '../styles/stylesheets/App.css';
+import '../styles/css/App.css';
 import { Navigation, Screen } from './common';
 import { Home, About, Services, Blog, Contact, Footer } from './main';
 import { BrowserRouter, Route } from 'react-router-dom';

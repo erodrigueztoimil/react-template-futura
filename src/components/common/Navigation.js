@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../styles/stylesheets/Navigation.css';
+import '../../styles/css/Navigation.css';
 import { HotdogButton } from './';
 import Name from '../../icons/name.jpg';
 import Facebook from '../../icons/facebook.svg';

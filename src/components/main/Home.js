@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../styles/stylesheets/Home.css';
+import '../../styles/css/Home.css';
 import Enrapture from '../../images/enrapture.jpg';
 import { Information } from './';
 
