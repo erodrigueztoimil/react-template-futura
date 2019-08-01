@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css?family=Dosis|Merriweather:300&display=swap");
+.about {
+  margin-top: 140px; }
+  .about .container h3 {
+    font-family: "Dosis", sans-serif;
+    font-size: 30px;
+    padding-left: 10%; }
+  .about .container p {
+    font-family: "Merriweather", serif;
+    font-size: 18px;
+    word-spacing: 5px; }
+  .about img {
+    display: block;
+    margin: 50px auto;
+    width: 80%;
+    height: 300px;
+    object-fit: cover; }
+
+@media (max-width: 768px) {
+  .about .container {
+    display: block;
+    align-items: center; }
+    .about .container h3 {
+      text-align: center; }
+    .about .container p {
+      padding: 0 40px;
+      text-align: center; } }
+@media (min-width: 769px) {
+  .about .container {
+    display: flex;
+    margin: 70px 0; }
+    .about .container h3, .about .container p {
+      width: 50%; }
+    .about .container p {
+      padding-right: 10%; } }
+
+/*# sourceMappingURL=About.css.map */

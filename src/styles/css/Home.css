@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css?family=Dosis|Merriweather:300&display=swap");
+.home {
+  z-index: 1; }
+  .home .image {
+    height: 100vh; }
+    .home .image img {
+      height: 85%;
+      width: 90%;
+      object-fit: cover;
+      position: absolute;
+      top: 54%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -moz-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      -o-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%); }
+  .home .tracking {
+    text-align: center; }
+    .home .tracking h3 {
+      font-family: "Dosis", sans-serif;
+      font-size: 40px;
+      margin: 0; }
+    .home .tracking p {
+      font-size: "Merriweather", serif;
+      font-size: 25px;
+      margin: 0;
+      padding-top: 10px;
+      padding-bottom: 50px; }
+    .home .tracking a {
+      background: #374F95;
+      padding: 15px 55px;
+      text-decoration: none;
+      color: #fff;
+      font-family: "Dosis", sans-serif;
+      font-size: 20px; }
+
+@media (max-width: 425px) {
+  .home .tracking {
+    padding: 70% 0; } }
+@media (min-width: 425px) {
+  .home .tracking {
+    padding: 20% 0; } }
+
+/*# sourceMappingURL=Home.css.map */
