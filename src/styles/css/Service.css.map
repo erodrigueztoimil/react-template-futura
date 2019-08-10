@@ -1,7 +1,1 @@
-{
-"version": 3,
-"mappings": "AAAQ,0FAAkF;ACGxF,UAAE;EACA,MAAM,EAAE,CAAC;EACT,WAAW,EDFH,qBAAqB;ECG7B,SAAS,EAAE,IAAI;;AAInB,yBAA0B;EACxB,QAAS;IACP,OAAO,EAAE,KAAK;IACd,UAAU,EAAE,MAAM;IAElB,uBAAM;MACJ,OAAO,EAAE,WAAW;AAK1B,yBAA0B;EACxB,QAAS;IACP,OAAO,EAAE,IAAI;IACb,OAAO,EAAE,MAAM;IAEf,uBAAM;MACJ,KAAK,EAAE,GAAG;MACV,OAAO,EAAE,IAAI",
-"sources": ["../sass/_fonts.scss","../sass/Service.scss"],
-"names": [],
-"file": "Service.css"
-}
+{"version":3,"sourceRoot":"","sources":["../sass/_fonts.scss","../sass/Service.scss"],"names":[],"mappings":"AAAQ;ACGN;EACE;EACA,aDFQ;ECGR;;;AAIJ;EACE;IACE;IACA;;EAEA;IACE;;;AAKN;EACE;IACE;IACA;;EAEA;IACE;IACA","file":"Service.css"}

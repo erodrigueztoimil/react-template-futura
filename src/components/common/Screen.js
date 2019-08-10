@@ -10,4 +10,4 @@ function Screen(props) {
   );
 }
 
-export { Screen };
+export default Screen;

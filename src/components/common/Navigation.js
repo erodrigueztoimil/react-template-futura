@@ -17,7 +17,7 @@ function Navigation(props) {
           <a href='/Home'><img src={Name} alt='Name' style={styles.name} /></a>
         </div>
         <div className='button'>
-          <HotdogButton click={props.handler} style={styles.icon}/>
+          <HotdogButton click={props.click} style={styles.icon}/>
         </div>
       </div>
     </div>
@@ -33,4 +33,4 @@ const styles = {
   }
 }
 
-export { Navigation };
+export default Navigation;

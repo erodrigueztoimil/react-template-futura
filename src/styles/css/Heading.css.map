@@ -1,7 +1,1 @@
-{
-"version": 3,
-"mappings": "AAAQ,0FAAkF;ACE1F,EAAG;EACD,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,OAAO;EACpB,MAAM,EAAE,CAAC;EACT,WAAW,EDJA,mBAAmB",
-"sources": ["../sass/_fonts.scss","../sass/Heading.scss"],
-"names": [],
-"file": "Heading.css"
-}
+{"version":3,"sourceRoot":"","sources":["../sass/_fonts.scss","../sass/Heading.scss"],"names":[],"mappings":"AAAQ;ACER;EACE;EACA;EACA;EACA,aDJW","file":"Heading.css"}

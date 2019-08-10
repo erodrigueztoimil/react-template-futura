@@ -2,20 +2,27 @@
 .service p {
   margin: 0;
   font-family: "Merriweather", serif;
-  font-size: 20px; }
+  font-size: 20px;
+}
 
 @media (max-width: 768px) {
   .service {
     display: block;
-    text-align: center; }
-    .service h3, .service p {
-      padding: 12px 30px 0; } }
+    text-align: center;
+  }
+  .service h3, .service p {
+    padding: 12px 30px 0;
+  }
+}
 @media (min-width: 769px) {
   .service {
     display: flex;
-    padding: 0 40px; }
-    .service h3, .service p {
-      width: 50%;
-      padding: 30px; } }
+    padding: 0 40px;
+  }
+  .service h3, .service p {
+    width: 50%;
+    padding: 30px;
+  }
+}
 
 /*# sourceMappingURL=Service.css.map */
