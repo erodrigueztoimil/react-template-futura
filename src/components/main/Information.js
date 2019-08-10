@@ -33,4 +33,4 @@ function Information() {
   );
 }
 
-export { Information };
+export default Information;

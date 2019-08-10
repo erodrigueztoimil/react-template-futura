@@ -1,3 +1,39 @@
+@import url("https://fonts.googleapis.com/css?family=Dosis|Merriweather:300&display=swap");
+.contact {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.contact .container {
+  text-align: center;
+  margin: auto;
+}
+.contact .container h3 {
+  font-family: "Dosis", sans-serif;
+  font-size: 40px;
+  margin: 0;
+}
+.contact .container p {
+  font-size: "Merriweather", serif;
+  font-size: 20px;
+  padding-top: 10px;
+  padding-bottom: 50px;
+  width: 60%;
+  margin: auto;
+}
+.contact .container button {
+  background: #374F95;
+  padding: 15px 55px;
+  color: #fff;
+  font-family: "Dosis", sans-serif;
+  font-size: 20px;
+}
 
+@media (max-width: 768px) {
+  .contact .container p {
+    width: 80%;
+  }
+}
 
 /*# sourceMappingURL=Contact.css.map */

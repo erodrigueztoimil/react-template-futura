@@ -1,6 +1,6 @@
 import React from 'react';
 import '../../styles/css/Navigation.css';
-import { HotdogButton } from './';
+import { HotdogButton } from '../common';
 import Name from '../../icons/name.jpg';
 import Facebook from '../../icons/facebook.svg';
 import LinkedIn from '../../icons/linkedin.svg';
@@ -14,7 +14,7 @@ function Navigation(props) {
           <a href='https://www.linkedin.com'><img src={LinkedIn} alt='LinkedIn' style={styles.icon}/></a>
         </div>
         <div className='name'>
-          <a href='/Home'><img src={Name} alt='Name' style={styles.name} /></a>
+          <img src={Name} alt='Name' style={styles.name} />
         </div>
         <div className='button'>
           <HotdogButton click={props.click} style={styles.icon}/>
@@ -26,7 +26,8 @@ function Navigation(props) {
 
 const styles = {
   icon: {
-    height: '25px'
+    height: '25px',
+    cursor: 'pointer'
   },
   name: {
     height: '60px'

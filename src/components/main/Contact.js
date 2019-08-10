@@ -1,11 +1,42 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-function Contact() {
-  return (
-    <div className='contact' style={{marginTop: '140px', height: "100vh"}}>
-      <h3>Contact</h3>
-    </div>
-  );
+// css
+import '../../styles/css/Contact.css';
+
+class Contact extends Component {
+  constructor() {
+    super();
+    this.state = {
+      open: false
+    }
+
+    this.clickHandler = this.clickHandler.bind(this);
+  }
+
+  clickHandler() {
+    this.setState({
+      open: !this.state.open
+    });
+  }
+
+  render() {
+    return (
+      <div className='contact'>
+        { this.state.open ?
+          <form>
+            <h3>form</h3>
+          </form> :
+          <div className='container'>
+            <h3>CONTACT</h3>
+            <p>
+              If you have any questions, please browse our blog, we might have the information you need there. For any further inquiries, please feel free to reach us!
+            </p>
+            <button onClick={this.clickHandler}>Contact Us</button>
+          </div>
+        }
+      </div>
+    );
+  }
 }
 
-export { Contact };
+export default Contact;
