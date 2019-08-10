@@ -45,7 +45,7 @@
       font-family: $title-font;
     }
 
-    input, a {
+    input, button {
       border: 1px solid #000;
       margin: 10px;
     }
@@ -56,13 +56,18 @@
       width: 100%;
     }
 
-    a {
-      text-decoration: none;
+    input[type=textarea] {
+      min-height: 150px;
+    }
+
+    button {
       font-size: 18px;
       color: #000;
       padding: 10px;
-      min-width: 20%;
+      min-width: 30%;
+      max-width: 50%;
       text-align: center;
+      background: none;
 
       &:hover {
         border: 1px solid $light-bg;
@@ -81,7 +86,9 @@
       }
     }
 
-    form {}
+    form {
+      button {}
+    }
   }
 }
 

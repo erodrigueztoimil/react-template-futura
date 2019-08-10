@@ -11,14 +11,22 @@ class Form extends Component {
       name: '',
       phone: '',
       email: '',
-      message: ''
+      message: '',
+      sent: false
     }
 
     this.updateField = this.updateField.bind(this);
+    this.submitForm = this.submitForm.bind(this);
   }
 
   updateField(field, value) {
     this.setState({ [field]: value });
+  }
+
+  submitForm() {
+    this.setState({
+      sent: !this.state.sent
+    });
   }
 
   render() {
@@ -50,6 +58,7 @@ class Form extends Component {
         <Button
           formValues={this.state}
           email='erodrigueztoimil@gmail.com'
+          submit={this.submitForm}
         />
       </form>
     );
