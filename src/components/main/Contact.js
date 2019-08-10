@@ -3,6 +3,12 @@ import React, { Component } from 'react';
 // css
 import '../../styles/css/Contact.css';
 
+// icon
+import At from '../../icons/at.svg';
+
+// component
+import Form from '../common/Form';
+
 class Contact extends Component {
   constructor() {
     super();
@@ -23,15 +29,13 @@ class Contact extends Component {
     return (
       <div className='contact'>
         { this.state.open ?
-          <form>
-            <h3>form</h3>
-          </form> :
+          <Form /> :
           <div className='container'>
-            <h3>CONTACT</h3>
+            <img src={At} alt='contact'/>
             <p>
               If you have any questions, please browse our blog, we might have the information you need there. For any further inquiries, please feel free to reach us!
             </p>
-            <button onClick={this.clickHandler}>Contact Us</button>
+            <button onClick={this.clickHandler}>CONTACT</button>
           </div>
         }
       </div>

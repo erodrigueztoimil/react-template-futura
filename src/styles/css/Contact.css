@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Dosis|Merriweather:300&display=swap");
 .contact {
   height: 100vh;
-  width: 100%;
   display: flex;
   flex-direction: column;
 }
@@ -9,10 +8,8 @@
   text-align: center;
   margin: auto;
 }
-.contact .container h3 {
-  font-family: "Dosis", sans-serif;
-  font-size: 40px;
-  margin: 0;
+.contact .container img {
+  height: 120px;
 }
 .contact .container p {
   font-size: "Merriweather", serif;
@@ -28,6 +25,40 @@
   color: #fff;
   font-family: "Dosis", sans-serif;
   font-size: 20px;
+}
+.contact form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  min-width: 40%;
+  max-width: 80%;
+}
+.contact form h3 {
+  font-size: 25px;
+  font-family: "Dosis", sans-serif;
+}
+.contact form input, .contact form a {
+  border: 1px solid #000;
+  margin: 10px;
+}
+.contact form input {
+  font-size: 18px;
+  padding: 10px;
+  width: 100%;
+}
+.contact form a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #000;
+  padding: 10px;
+  min-width: 20%;
+  text-align: center;
+}
+.contact form a:hover {
+  border: 1px solid #374F95;
+  background: #374F95;
+  color: #fff;
 }
 
 @media (max-width: 768px) {
