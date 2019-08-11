@@ -9,6 +9,7 @@ import About from './About';
 import Information from './Information';
 import Services from './Services';
 import Contact from './Contact';
+import Blog from './Blog';
 import Footer from './Footer';
 
 // images
@@ -30,6 +31,7 @@ function Home(props) {
       <About />
       <Services />
       <Contact />
+      <Blog />
       <Footer />
     </div>
   );

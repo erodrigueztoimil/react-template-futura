@@ -2,5 +2,24 @@
 @import "fonts";
 
 .services {
-  margin-top: 140px;
+  height: 100vh;
+  margin-top: 200px;
+  background: $light-bg;
+
+  h3 {
+    font-family: $title-font;
+    font-size: 30px;
+    padding: 100px 0 30px;
+    margin: 0;
+    text-align: center;
+    color: #fff;
+  }
+}
+
+@media (max-width:768px) {
+  .services {}
+}
+
+@media (min-width:768px) {
+  .services {}
 }

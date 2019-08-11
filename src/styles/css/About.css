@@ -1,11 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Dosis|Merriweather:300&display=swap");
 .about {
-  margin-top: 100px;
+  margin-top: 200px;
 }
 .about h3 {
   font-family: "Dosis", sans-serif;
   font-size: 30px;
-  padding-left: 10%;
   padding: 0;
   text-align: center;
 }
