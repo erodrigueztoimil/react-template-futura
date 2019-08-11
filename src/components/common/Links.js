@@ -6,7 +6,6 @@ class Links extends Component {
 
     this.state = {
       items: [
-        'Home',
         'About',
         'Services',
         'Blog',

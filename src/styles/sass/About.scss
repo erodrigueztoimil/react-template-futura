@@ -1,44 +1,47 @@
 @import "fonts";
 
 .about {
-  margin-top: 140px;
+  margin-top: 100px;
 
-  .container {
-    h3 {
-      font-family: $title-font;
-      font-size: 30px;
-      padding-left: 10%;
-    }
+  h3 {
+    font-family: $title-font;
+    font-size: 30px;
+    padding-left: 10%;
+    padding: 0;
+    text-align: center;
+  }
 
-    p {
-      font-family: $text-font;
-      font-size: 18px;
-      word-spacing: 5px;
-    }
+  p {
+    font-family: $text-font;
+    word-spacing: 5px;
+    font-size: 18px;
   }
 
   img {
-    display: block;
-    margin: 50px auto;
     width: 80%;
-    height: 300px;
+    display: block;
     object-fit: cover;
   }
 }
 
 @media (max-width:768px) {
   .about {
-    .container {
+    .left {
       display: block;
       align-items: center;
 
-      h3 {
-        text-align: center;
-      }
+      h3 {}
 
       p {
-        padding: 0 40px;
-        text-align: center;
+        margin: 0;
+        padding: 0 13%;
+      }
+    }
+
+    .right {
+      img {
+        height: 300px;
+        margin: 50px auto;
       }
     }
   }
@@ -46,17 +49,97 @@
 
 @media (min-width:769px) {
   .about {
-    .container {
-      display: flex;
-      margin: 70px 0;
+    display: flex;
 
-      h3, p {
-        width: 50%;
-      }
+    .left, .right {
+      width: 50%;
+    }
+
+    .left {
+      margin: 50px 0;
 
       p {
-        padding-right: 10%;
+        padding: 0 10%;
+      }
+    }
+
+    .right {
+      position: relative;
+
+      img {
+        height: 100%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
       }
     }
   }
 }
+
+
+
+
+
+
+
+// .about {
+//   margin-top: 140px;
+//
+//   .container {
+//     h3 {
+//       font-family: $title-font;
+//       font-size: 30px;
+//       padding-left: 10%;
+//     }
+//
+//     p {
+//       font-family: $text-font;
+//       font-size: 18px;
+//       word-spacing: 5px;
+//     }
+//   }
+//
+//   img {
+//     display: block;
+//     margin: 50px auto;
+//     width: 80%;
+//     height: 300px;
+//     object-fit: cover;
+//   }
+// }
+//
+// @media (max-width:768px) {
+//   .about {
+//     .container {
+//       display: block;
+//       align-items: center;
+//
+//       h3 {
+//         text-align: center;
+//       }
+//
+//       p {
+//         padding: 0 40px;
+//         text-align: center;
+//       }
+//     }
+//   }
+// }
+//
+// @media (min-width:769px) {
+//   .about {
+//     .container {
+//       display: flex;
+//       margin: 70px 0;
+//
+//       h3, p {
+//         width: 50%;
+//       }
+//
+//       p {
+//         padding-right: 10%;
+//       }
+//     }
+//   }
+// }

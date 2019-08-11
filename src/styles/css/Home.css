@@ -44,12 +44,12 @@
 
 @media (max-width: 425px) {
   .home .tracking {
-    padding: 70% 0;
+    padding: 70% 20px;
   }
 }
 @media (min-width: 425px) {
   .home .tracking {
-    padding: 20% 0;
+    padding: 20% 20px;
   }
 }
 
