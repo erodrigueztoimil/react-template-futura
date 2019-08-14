@@ -1,8 +1,11 @@
 import React from 'react';
 
+// css
+import '../../styles/css/Button.css';
+
 function Button(props) {
   return (
-    <button onClick={props.submit}>Send</button>
+    <button onClick={props.onClick}>{props.text}</button>
   );
 }
 

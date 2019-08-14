@@ -8,6 +8,7 @@ import At from '../../icons/at.svg';
 
 // component
 import Form from '../common/Form';
+import Button from '../common/Button';
 
 class Contact extends Component {
   constructor() {
@@ -35,7 +36,10 @@ class Contact extends Component {
             <p>
               If you have any questions, please browse our blog, we might have the information you need there. For any further inquiries, please feel free to reach us!
             </p>
-            <button onClick={this.clickHandler}>CONTACT</button>
+            <Button
+              onClick={this.clickHandler}
+              text='CONTACT'
+            />
           </div>
         }
       </div>

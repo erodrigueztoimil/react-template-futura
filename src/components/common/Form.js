@@ -58,7 +58,8 @@ class Form extends Component {
         <Button
           formValues={this.state}
           email='erodrigueztoimil@gmail.com'
-          submit={this.submitForm}
+          onClick={this.submitForm}
+          text='Send'
         />
       </form>
     );

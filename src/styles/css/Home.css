@@ -41,6 +41,11 @@
   font-family: "Dosis", sans-serif;
   font-size: 20px;
 }
+.home .tracking a:hover {
+  background: #fff;
+  color: #000;
+  border: 1px solid #000;
+}
 
 @media (max-width: 425px) {
   .home .tracking {
