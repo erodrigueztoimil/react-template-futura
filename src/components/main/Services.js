@@ -33,7 +33,7 @@ function Services() {
         <Service
           src={International}
           title='International Presence'
-          text='We have a professional and outstanding reputation in the performance of supply chains and freight management.We have presence in South America, Central America, Mexico and the Caribbean.'
+          text='We have a professional and outstanding reputation in the performance of supply chains and freight management in South America, Central America, Mexico and the Caribbean.'
         />
 
         <Service

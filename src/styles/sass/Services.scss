@@ -2,7 +2,7 @@
 @import "fonts";
 
 .services {
-  margin-top: 200px;
+  margin-top: 150px;
   background: $light-bg;
   padding: 70px 0;
 
@@ -20,8 +20,9 @@
     margin: auto;
 
     .service {
-      border: 1px solid white;
-      color: #fff;
+      background: #fff;
+      // x-offset, y-offset, blur, spread, color
+      box-shadow: 0px 10px 25px 3px $shadow;
 
       img {
         width: 100%;
@@ -54,8 +55,9 @@
   .services {
     .content {
       .service {
-        margin: 0 auto 50px;
-        max-width: 256px;
+        margin: 0 auto 80px;
+        min-width: 256px;
+        max-width: 270px;
 
         .desc {}
       }
