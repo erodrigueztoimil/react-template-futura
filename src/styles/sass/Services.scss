@@ -13,15 +13,16 @@
     margin: 0;
     text-align: center;
     color: #fff;
+    padding: 0;
   }
 
   .content {
+    display: flex;
+
     .service {
       background: #fff;
       // x-offset, y-offset, blur, spread, color
       box-shadow: 0px 10px 25px 3px $shadow;
-      width: 85%;
-      max-width: 300px;
 
       img {
         width: 100%;
@@ -31,43 +32,129 @@
 
       .desc {
         text-align: center;
-        padding: 20px;
-        height: 245px;
+        padding: 0 10%;
 
         h4 {
           font-family: $title-font;
           font-size: 25px;
           margin: 0;
-          padding-top: 20px;
+          padding: 20px;
         }
 
         p {
           font-family: $text-font;
           font-size: 16px;
+          margin: 0;
+          padding-bottom: 50px;
         }
       }
     }
   }
 }
 
-
-
-@media only screen and (max-width:768px) {
+@media only screen and (max-width:1023px) {
   .services {
     .content {
+      flex-direction: column;
+
       .service {
-        margin: 0 auto 80px;
+        width: 85%;
+        max-width: 530px;
+        margin: 40px auto;
       }
     }
   }
 }
-@media only screen and (min-width:769) and (max-width:1150px) {
+
+@media only screen and (min-width:1024px) {
   .services {
     .content {
-      .service {}
+      .service {
+        width: 25%;
+        margin: 40px 1.2%;
+      }
     }
   }
 }
+
+// .services {
+//   margin-top: 150px;
+//   background: $light-bg;
+//   padding: 70px 0;
+//
+//   h3 {
+//     font-family: $title-font;
+//     font-size: 30px;
+//     padding-bottom: 30px;
+//     margin: 0;
+//     text-align: center;
+//     color: #fff;
+//   }
+//
+//   .content {
+//     .service {
+//       background: #fff;
+//       // x-offset, y-offset, blur, spread, color
+//       box-shadow: 0px 10px 25px 3px $shadow;
+//       width: 85%;
+//       max-width: 300px;
+//
+//       img {
+//         width: 100%;
+//         height: 300px;
+//         object-fit: cover;
+//       }
+//
+//       .desc {
+//         text-align: center;
+//         padding: 20px;
+//         height: 245px;
+//
+//         h4 {
+//           font-family: $title-font;
+//           font-size: 25px;
+//           margin: 0;
+//           padding-top: 20px;
+//         }
+//
+//         p {
+//           font-family: $text-font;
+//           font-size: 16px;
+//         }
+//       }
+//     }
+//   }
+// }
+//
+//
+//
+// @media only screen and (max-width:768px) {
+//   .services {
+//     .content {
+//       .service {
+//         margin: 0 auto 80px;
+//       }
+//     }
+//   }
+// }
+// @media only screen and (min-width:769px) and (max-width:1150px) {
+//   .services {
+//     .content {
+//       .service {}
+//     }
+//   }
+// }
+// @media only screen and (min-width:1151px) {
+//   .services {
+//     .content {
+//       display: flex;
+//
+//       .service {
+//         margin: 0 10px;
+//       }
+//     }
+//   }
+// }
 //
 // @media (min-width:769px) {
 //   .services {
