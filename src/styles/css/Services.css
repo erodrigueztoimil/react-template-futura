@@ -12,13 +12,11 @@
   text-align: center;
   color: #fff;
 }
-.services .content {
-  display: grid;
-  margin: auto;
-}
 .services .content .service {
   background: #fff;
   box-shadow: 0px 10px 25px 3px rgba(0, 0, 0, 0.4);
+  width: 85%;
+  max-width: 300px;
 }
 .services .content .service img {
   width: 100%;
@@ -41,16 +39,9 @@
   font-size: 16px;
 }
 
-@media (max-width: 768px) {
+@media only screen and (max-width: 768px) {
   .services .content .service {
     margin: 0 auto 80px;
-    min-width: 256px;
-    max-width: 270px;
-  }
-}
-@media (min-width: 769px) {
-  .services .content .service {
-    margin: 0 1%;
   }
 }
 

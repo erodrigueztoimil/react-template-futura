@@ -16,13 +16,12 @@
   }
 
   .content {
-    display: grid;
-    margin: auto;
-
     .service {
       background: #fff;
       // x-offset, y-offset, blur, spread, color
       box-shadow: 0px 10px 25px 3px $shadow;
+      width: 85%;
+      max-width: 300px;
 
       img {
         width: 100%;
@@ -51,26 +50,31 @@
   }
 }
 
-@media (max-width:768px) {
+
+
+@media only screen and (max-width:768px) {
   .services {
     .content {
       .service {
         margin: 0 auto 80px;
-        min-width: 256px;
-        max-width: 270px;
-
-        .desc {}
       }
     }
   }
 }
-
-@media (min-width:769px) {
+@media only screen and (min-width:769) and (max-width:1150px) {
   .services {
     .content {
-      .service {
-        margin: 0 1%;
-      }
+      .service {}
     }
   }
 }
+//
+// @media (min-width:769px) {
+//   .services {
+//     .content {
+//       .service {
+//         margin: 0 1%;
+//       }
+//     }
+//   }
+// }
