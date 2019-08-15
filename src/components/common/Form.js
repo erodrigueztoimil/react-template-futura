@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 // components
 import Field from '../common/Field';
 import Button from '../common/Button';
+import Heading from './Heading';
 
 class Form extends Component {
   constructor() {
@@ -32,7 +33,7 @@ class Form extends Component {
   render() {
     return (
       <form>
-        <h3>CONTACT</h3>
+        <Heading text='Contact' />
         <Field
           onChange={(event) => this.updateField('name', event.target.value)}
           value={this.state.name}

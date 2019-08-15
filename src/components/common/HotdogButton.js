@@ -7,4 +7,4 @@ function HotdogButton(props) {
   );
 }
 
-export { HotdogButton };
+export default HotdogButton;

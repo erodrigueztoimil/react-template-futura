@@ -12,4 +12,4 @@ function Service(props) {
   );
 }
 
-export { Service };
+export default Service;

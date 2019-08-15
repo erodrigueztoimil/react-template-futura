@@ -1,12 +1,19 @@
 import React from 'react';
+
+// css
 import '../../styles/css/About.css';
+
+// image
 import Bandura from '../../images/bandura.jpg';
+
+// component
+import Heading from '../common/Heading';
 
 function About() {
   return (
     <div className='about'>
       <div className='left'>
-        <h3>Our Company</h3>
+        <Heading text='Our Company'/>
         <p>
           When considering a logistics partner, experience is paramount. Our average facility is over 18,000 square feet and we have successfully implemented 50 start-ups. Our low management turnover means the knowledge gained from these start-ups is still on staff, ready to make your start-up a seamless one - on time and on budget.
           <br />

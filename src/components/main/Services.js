@@ -4,7 +4,8 @@ import React from 'react';
 import '../../styles/css/Services.css';
 
 // components
-import { Service } from '../common';
+import Service from '../common/Service';
+import Heading from '../common/Heading';
 
 // images
 import Shipping from '../../images/aerial.jpg';
@@ -15,7 +16,7 @@ import Receiving from '../../images/bannon.jpg';
 function Services() {
   return (
     <div className='services'>
-      <h3>Services</h3>
+      <Heading text='Services'/>
 
       <div className='content'>
         <Service
