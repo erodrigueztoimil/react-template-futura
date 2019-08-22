@@ -35,13 +35,8 @@
     flex-direction: column;
     align-items: center;
     margin: auto;
-    min-width: 40%;
+    min-width: 45%;
     max-width: 80%;
-
-    h3 {
-      font-size: 25px;
-      font-family: $title-font;
-    }
 
     input {
       font-size: 18px;
@@ -56,9 +51,9 @@
     }
 
     button:hover {
-      border: 1px solid $light-bg;
-      background: $light-bg;
-      color: #fff;
+      border: 1px solid #000;
+      background: #fff;
+      color: #000;
     }
   }
 }

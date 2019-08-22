@@ -1,7 +1,7 @@
 import React from 'react';
 
 // css
-import '../../styles/css/Home.css';
+import '../../css/Home.css';
 
 // components
 import Navigation from './/Navigation';

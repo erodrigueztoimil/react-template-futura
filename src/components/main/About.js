@@ -1,7 +1,7 @@
 import React from 'react';
 
 // css
-import '../../styles/css/About.css';
+import '../../css/About.css';
 
 // image
 import Bandura from '../../images/bandura.jpg';

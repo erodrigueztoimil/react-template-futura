@@ -2,6 +2,19 @@
 body {
   margin: 0;
 }
+body h3 {
+  font-family: "Dosis", sans-serif;
+  font-size: 30px;
+  padding: 0;
+  text-align: center;
+}
+body button {
+  font-size: 20px;
+  font-family: "Dosis", sans-serif;
+  padding: 15px 55px;
+  background: #374F95;
+  color: #fff;
+}
 
 .screen {
   height: 100vh;

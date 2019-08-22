@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 // css
-import '../styles/css/App.css';
+import '../css/App.css';
 
 // components
 import Home from './main/Home';
@@ -12,24 +12,20 @@ class App extends Component {
     super();
 
     this.state = {
-      buttonClicked: false
+      open: false
     }
 
     this.clickHandler = this.clickHandler.bind(this);
   }
 
   clickHandler() {
-    this.setState((state) => {
-      return {
-        buttonClicked: !state.buttonClicked
-      }
-    });
+    this.setState({ open: !this.state.open });
   }
 
   render() {
     return (
       <div className='app'>
-        { this.state.buttonClicked ?
+        { this.state.open ?
           <Screen click={this.clickHandler}/> :
           <Home click={this.clickHandler}/>
         }

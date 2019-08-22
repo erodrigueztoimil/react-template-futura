@@ -1,7 +1,7 @@
 import React from 'react';
 
 // css
-import '../../styles/css/Navigation.css';
+import '../../css/Navigation.css';
 
 // component
 import HotdogButton from '../common/HotdogButton';
@@ -32,11 +32,11 @@ function Navigation(props) {
 
 const styles = {
   icon: {
-    height: '30px',
+    height: '25px',
     cursor: 'pointer'
   },
   name: {
-    height: '60px'
+    height: '50px'
   }
 }
 

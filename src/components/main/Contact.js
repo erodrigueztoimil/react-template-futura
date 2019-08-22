@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 // css
-import '../../styles/css/Contact.css';
+import '../../css/Contact.css';
 
 // icon
 import At from '../../icons/at.svg';

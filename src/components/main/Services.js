@@ -1,7 +1,7 @@
 import React from 'react';
 
 // css
-import '../../styles/css/Services.css';
+import '../../css/Services.css';
 
 // components
 import Service from '../common/Service';
