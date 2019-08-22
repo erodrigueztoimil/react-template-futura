@@ -7,10 +7,7 @@ import Article from '../common/Article';
 function Blog() {
   return (
     <div className='blog'>
-      <Heading text='Blog'/>
-      <div className=''>
-        <Article />
-      </div>
+      <Article />
     </div>
   );
 }
