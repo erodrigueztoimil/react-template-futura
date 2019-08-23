@@ -2,7 +2,9 @@ import React from 'react';
 
 function Article(props) {
   return (
-    <h3>article</h3>
+    <div className={props.type}>
+      <h3>article</h3>
+    </div>
   );
 }
 

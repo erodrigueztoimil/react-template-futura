@@ -1,13 +1,17 @@
 import React from 'react';
 
+// css
+import '../../css/Blog.css';
+
 // components
-import Heading from '../common/Heading';
 import Article from '../common/Article';
 
 function Blog() {
   return (
     <div className='blog'>
-      <Article />
+      <Article
+        type='s'
+      />
     </div>
   );
 }
