@@ -13,7 +13,7 @@ function About() {
   return (
     <div className='about'>
       <div className='left'>
-        <Heading text='Our Company'/>
+        <Heading text='OUR COMPANY'/>
         <p>
           When considering a logistics partner, experience is paramount. Our average facility is over 18,000 square feet and we have successfully implemented 50 start-ups. Our low management turnover means the knowledge gained from these start-ups is still on staff, ready to make your start-up a seamless one - on time and on budget.
           <br />
