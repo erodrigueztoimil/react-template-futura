@@ -1,6 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Dosis|Merriweather:300&display=swap");
 .services {
   margin-top: 150px;
+  background: #374F95;
+}
+.services h3 {
+  color: #fff;
 }
 .services .row {
   display: flex;
@@ -10,7 +14,7 @@
   width: 100%;
   height: 400px;
   background: #000;
-  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.4);
 }
 .services .row .service .box .imgBx {
   position: absolute;
@@ -84,7 +88,7 @@
 }
 @media only screen and (min-width: 951px) {
   .services {
-    margin: 150px 50px 0;
+    padding: 100px 50px 130px;
   }
   .services .row .service {
     width: 50%;
